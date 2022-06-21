@@ -6,7 +6,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -17,7 +19,6 @@ body {
   line-height: 1.5;
 }
 
-/* images and videos max out at full width */
 img,
 video {
   height: auto;
@@ -29,7 +30,7 @@ nav {
   justify-content: space-between;
 }
 
-nav>a {
+nav > a {
   background-color: gray;
   color: white;
   text-decoration: none;
@@ -38,21 +39,29 @@ nav>a {
   text-align: center;
 }
 
+h1, p {
+  color: white;
+}
+
 .red-background {
-  background-color: red;
+  background-color: #ff6663;
 }
 .orange-background {
-  background-color: orange;
+  background-color: #feb144;
 }
 .yellow-background {
-  background-color: yellow;
+  background-color: #ffe55e;
 }
 .green-background {
-  background-color: green;
+  background-color: #9ee09e;
 }
 .blue-background {
-  background-color: blue;
+  background-color: #9ec1cf;
 }
 .purple-background {
-  background-color: purple;
+  background-color: #cc99c9;
+}
+
+.black {
+  color: black;
 }
