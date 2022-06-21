@@ -41,8 +41,9 @@ nav > a {
 
 #rainbow-stripe {
   transform: rotate(90deg);
-  display: flex;
-  align-items: center;
+  position: absolute;
+  top: -250px;
+  max-height: 100%;
 }
 
 h1, p {
