@@ -39,6 +39,12 @@ nav > a {
   text-align: center;
 }
 
+#rainbow-stripe {
+  transform: rotate(90deg);
+  display: flex;
+  align-items: center;
+}
+
 h1, p {
   color: white;
 }
@@ -50,7 +56,7 @@ h1, p {
   background-color: #feb144;
 }
 .yellow-background {
-  background-color: #ffe55e;
+  background-color: #f9e076;
 }
 .green-background {
   background-color: #9ee09e;
