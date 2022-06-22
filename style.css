@@ -39,11 +39,9 @@ nav > a {
   text-align: center;
 }
 
-#rainbow-stripe {
-  transform: rotate(90deg);
-  position: absolute;
-  top: -250px;
-  max-height: 100%;
+#rainbow-stripe {;
+  height: 100px;
+  width:100%
 }
 
 h1, p {
